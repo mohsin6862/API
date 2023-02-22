@@ -14,10 +14,10 @@ function displayPhotos(photos){
         photosDiv.classList.add('photos');
         photosDiv.innerHTML = 
         `
-        <h2>ID: ${photo.id}</h3>
-        <h3>ID: ${photo.title}</h3>
-        <h4>ID: ${photo.url}</h3>
-        <h6>ID: ${photo.thumbnailUrl}</h3>
+        <h2>ID: ${photo.id}</h2>
+        <h3>Title: ${photo.title}</h3>
+        <h4>URL: ${photo.url}</h4>
+        <h5>Thambnail URL: ${photo.thumbnailUrl}</h5>
         `
 
         photosContainer.appendChild(photosDiv);
